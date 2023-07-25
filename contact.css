@@ -1,0 +1,98 @@
+body, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  background-color: #C9A581;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.flexbox-item1 {
+  max-width: 1920px;
+  height: 923px;
+  border: 0px solid #000000;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.flexbox-item2 {
+  max-width: 1920px;
+  height: 923px;
+  border: 20px solid #000000;
+  box-sizing: border-box;
+  flex: 2; 
+}
+
+.JavaLogo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+h2 {
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.InstaLogo {
+  width: 100px;
+  height: auto;
+}
+
+.TikTokLogo {
+  width: 160px;
+  height: auto;
+}
+
+.TwitterLogo {
+  width: 100px;
+  height: auto;
+}
+
+.Social-Icons-Container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 30px; 
+}
+
+.nav-font {
+  text-align: center; 	
+}
+
+
+.nav-font a {
+  font-family: "cooper-black-std", serif;
+  text-decoration: none; 
+  color: white; 
+  font-size: 50px; 
+}
+
+.nav-font a:hover {
+  color: black; 
+}
+
+
+.nav-font nav {
+  margin-top: 18px;
+}
+p{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  margin-top: 70px;}
